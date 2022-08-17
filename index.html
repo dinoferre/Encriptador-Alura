@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="imgLogo" src="IMG/Vector.png" alt="Logo de la aplicación">
+        </div>
+
+        <div class="left">
+            <textarea class="text-input" placeholder="Ingrese su texto aquí" id="input-texto" rows="20" cols="40"></textarea>
+        </div>
+
+        <div class="right">
+            <img class="imgDerecha" src="IMG/muneco.png" alt="Muñeco">
+            <h2 class="texto">Ningún mensaje fue encontrado</h2>
+            <textarea class="textoDerecho" name="" id="" cols="30" rows="10">Ingrese el texto que desees encriptar o desencriptar.</textarea>
+            <button id="copiar" type="button" onclick="copiar()">Copiar</button>
+        </div>
+        <div class="left-button">
+            <p><img src="IMG/imagenadvertencia.png" alt="Imagen de Advertencia"> Solo minusculas y sin acento</p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+    <footer>
+        <p class="dinoDev">Proyecto Alura ONE - © Dino Dev. 2022</p>
+        <div class="iconos">
+            <a href="https://github.com/dinoferre"> <img src="img/github (1).png" alt="" class="imgIcono"></a>
+            <a href="https://www.linkedin.com/in/dinoferre/"> <img src="img/linkedin.png" alt="" class="imgIcono"></a>
+        </div>
+    </footer>
+
+    <script src="javascript.js">
+    </script>
+</body>
+</html>

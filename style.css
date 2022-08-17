@@ -1,0 +1,245 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f3f5fc;
+}
+  
+.container {
+  margin: auto;
+  width: 70%;
+  height: 600px;
+  padding: 5px;
+}
+  
+.logo {
+  width: 100%;
+  float: left;
+}
+  
+.imgLogo {
+  margin-top: 3%;
+  float: inherit;
+  margin-left: 1%;
+}
+  
+.left {
+  float: left;
+  width: 70%;
+  height: 70%;
+  border-radius: 24px;
+}
+  
+.left-button {
+  float: left;
+  width: 65%;
+  height: auto;
+  border-radius: 24px;
+}
+  
+.left-button p {
+  text-align: center;
+  font-family: Inter;
+}
+  
+.text-input {
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 80%;
+  height: 80%;
+  color: #0a3871;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: #f3f5fc;
+}
+  
+.right {
+  float: right;
+  width: 30%;
+  height: 90%;
+  border-radius: 24px;
+  background-color: white;
+}
+  
+.imgDerecha {
+  margin-top: 20%;
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+}
+  
+.texto {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 5%;
+}
+  
+.textoDerecho {
+  display: block;
+  margin: auto;
+  color: #0a3871;
+  width: 80%;
+  height: 24%;
+  border: none;
+  border-radius: 10%;
+  outline: none;
+  font-size: 15px;
+  text-align: center;
+  font-family: Inter;
+}
+  
+#btn-encriptar {
+  padding: 24px;
+  width: 30%;
+  height: 60%;
+  border-radius: 24px;
+  margin-left: 10%;
+  background-color: #0a3871;
+  color: white;
+}
+  
+#btn-encriptar:active {
+  background-color: transparent;
+  box-shadow: 5px 5px 8px 1px black;
+  color: black;
+}
+  
+#btn-desencriptar {
+  padding: 24px;
+  width: 30%;
+  height: 60%;
+  border-radius: 24px;
+  margin-left: 10%;
+  background-color: #d8dfe8;
+}
+  
+#btn-desencriptar:active {
+  background-color: transparent;
+  box-shadow: 5px 5px 8px 1px black;
+}
+  
+#copiar {
+  margin-left: 10%;
+  margin-top: 90%;
+  width: 80%;
+  height: 10%;
+  background-color: #d8dfe8;
+  border-radius: 24px;
+  display: none;
+  box-sizing: border-box;
+}
+  
+#copiar:active {
+  background-color: transparent;
+  box-shadow: 5px 5px 8px 1px black;
+}
+  
+footer {
+  font-size: 20px;
+  background: black;
+  color: violet;
+}
+
+.dinoDev {
+  text-align: center;
+}
+
+.iconos{
+  text-align: center;
+}
+
+.imgIcono {
+  width: 40px;
+  height: 40px;
+}
+  
+/*Agrego MQ para Responsive*/
+@media screen and (max-width: 700px) {
+  .container {
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+  }
+  
+  .logo {
+    margin-top: 2%;
+    float: inherit;
+    margin-left: 1%;
+  }
+  
+  .left {
+    display: block;
+    float: left;
+    width: 100%;
+    border-radius: 24px;
+  }
+  
+  .left-button {
+    position: relative;
+    bottom: 600px;
+    width: 100%;
+    border-radius: 24px;
+  }
+  
+  #btn-encriptar {
+    display: inline;
+    width: 100%;
+  }
+  
+  #btn-desencriptar {
+    display: inline;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .right {
+    display: block;
+    position: relative;
+    left: 10%;
+    top: 300px;
+    width: 100%;
+    height: 700px;
+    border-radius: 24px;
+    background-color: white;
+  }
+
+  .imgDerecha {
+    display: none;
+  }
+    
+  #copiar {
+    margin-top: 70%;
+  }
+  
+  footer {
+    position: absolute;
+    text-align: center;
+    top: 1400px;
+    left: 27%;
+    font-size: 12px;
+  }
+}
+  
+ 
+@media screen and (min-width: 1400px) {
+  .container {
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    padding: 5px;
+  }
+  
+  #copiar {
+    margin-bottom: 5%;
+    padding: 24px;
+  }
+  
+  footer {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    right: 20%;
+    font-size: 15px;
+  }
+}
