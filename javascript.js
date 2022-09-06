@@ -38,3 +38,15 @@ function copiar(){
     document.execCommand("copy");
     alert("Copiado!")
 }
+
+document.querySelector(".bi-instagram").addEventListener("click", function (e) {
+    window.open("https://www.instagram.com/dino.ferre/", "_blank");
+  });
+  
+  document.querySelector(".bi-github").addEventListener("click", function (e) {
+    window.open("https://github.com/dinoferre", "_blank");
+  });
+  
+  document.querySelector(".bi-linkedin").addEventListener("click", function (e) {
+    window.open("https://www.linkedin.com/in/dinoferre/", "_blank");
+  });
